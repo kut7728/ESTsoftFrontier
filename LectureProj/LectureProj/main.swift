@@ -26,15 +26,16 @@ func selection(){
     
     switch choice {
     case "1":
-        input()
+        Input()
     case "2":
-        output()
+        Output()
     case "3":
-        search()
+        Search()
     case "4":
-        delete()
+        Delete()
     case "5":
-        end()
+        End()
+        break
     default:
         print("유효하지 않은 명령입니다")
     }

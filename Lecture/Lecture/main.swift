@@ -7,7 +7,4 @@
 
 import Foundation
 
-//let lecture = FunctionEx()
-//lecture.run()
-
-FunctionEx03().run()
+run()
