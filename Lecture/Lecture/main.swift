@@ -7,4 +7,4 @@
 
 import Foundation
 
-run()
+ShapeBuilder()
