@@ -19,13 +19,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6D19DCEA2D52EFDA00E436CB /* Lecture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lecture; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D19DCEA2D52EFDA00E436CB /* Lecture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Lecture; path = /Users/nelime/Xcode/ESTsoftFrontier/Lecture/build/Debug/Lecture; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6D19DCEC2D52EFDA00E436CB /* Lecture */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Lecture;
+			sourceTree = "<group>";
+		};
+		6DF716C72D55870800C97CB1 /* 250207 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = 250207;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,16 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				6D19DCEC2D52EFDA00E436CB /* Lecture */,
-				6D19DCEB2D52EFDA00E436CB /* Products */,
+				6DF716C72D55870800C97CB1 /* 250207 */,
 			);
-			sourceTree = "<group>";
-		};
-		6D19DCEB2D52EFDA00E436CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6D19DCEA2D52EFDA00E436CB /* Lecture */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +71,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6D19DCEC2D52EFDA00E436CB /* Lecture */,
+				6DF716C72D55870800C97CB1 /* 250207 */,
 			);
 			name = Lecture;
 			packageProductDependencies = (
@@ -107,7 +105,7 @@
 			mainGroup = 6D19DCE12D52EFDA00E436CB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6D19DCEB2D52EFDA00E436CB /* Products */;
+			productRefGroup = 6D19DCE12D52EFDA00E436CB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
