@@ -7,43 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6D980C432D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proj0211Ex01_FruitMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D980C952D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lec0212Ex02_ObservedObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6D980E132D5C8E6500F63F93 /* Exceptions for "Proj0211Ex01_FruitMarket" folder in "Proj0211Ex01_FruitMarket" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Models/ColorExtension.swift,
-			);
-			target = 6D980C422D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		6D980E142D5C8E6500F63F93 /* Exceptions for "Proj0211Ex01_FruitMarket" folder in "Copy Bundle Resources" phase from "Proj0211Ex01_FruitMarket" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 6D980C412D5B1B5F00F63F93 /* Resources */;
-			membershipExceptions = (
-				Models/ColorExtension.swift,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6D980C452D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */ = {
+		6D980C972D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				6D980E132D5C8E6500F63F93 /* Exceptions for "Proj0211Ex01_FruitMarket" folder in "Proj0211Ex01_FruitMarket" target */,
-				6D980E142D5C8E6500F63F93 /* Exceptions for "Proj0211Ex01_FruitMarket" folder in "Copy Bundle Resources" phase from "Proj0211Ex01_FruitMarket" target */,
-			);
-			path = Proj0211Ex01_FruitMarket;
+			path = Lec0212Ex02_ObservedObject;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D980C402D5B1B5F00F63F93 /* Frameworks */ = {
+		6D980C922D5C6A5000F63F93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D980C3A2D5B1B5F00F63F93 = {
+		6D980C8C2D5C6A5000F63F93 = {
 			isa = PBXGroup;
 			children = (
-				6D980C452D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */,
-				6D980C442D5B1B5F00F63F93 /* Products */,
+				6D980C972D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject */,
+				6D980C962D5C6A5000F63F93 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D980C442D5B1B5F00F63F93 /* Products */ = {
+		6D980C962D5C6A5000F63F93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D980C432D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket.app */,
+				6D980C952D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D980C422D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */ = {
+		6D980C942D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D980C512D5B1B6100F63F93 /* Build configuration list for PBXNativeTarget "Proj0211Ex01_FruitMarket" */;
+			buildConfigurationList = 6D980CA32D5C6A5200F63F93 /* Build configuration list for PBXNativeTarget "Lec0212Ex02_ObservedObject" */;
 			buildPhases = (
-				6D980C3F2D5B1B5F00F63F93 /* Sources */,
-				6D980C402D5B1B5F00F63F93 /* Frameworks */,
-				6D980C412D5B1B5F00F63F93 /* Resources */,
+				6D980C912D5C6A5000F63F93 /* Sources */,
+				6D980C922D5C6A5000F63F93 /* Frameworks */,
+				6D980C932D5C6A5000F63F93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6D980C452D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */,
+				6D980C972D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject */,
 			);
-			name = Proj0211Ex01_FruitMarket;
+			name = Lec0212Ex02_ObservedObject;
 			packageProductDependencies = (
 			);
-			productName = Proj0211Ex01_FruitMarket;
-			productReference = 6D980C432D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket.app */;
+			productName = Lec0212Ex02_ObservedObject;
+			productReference = 6D980C952D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D980C3B2D5B1B5F00F63F93 /* Project object */ = {
+		6D980C8D2D5C6A5000F63F93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					6D980C422D5B1B5F00F63F93 = {
+					6D980C942D5C6A5000F63F93 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 6D980C3E2D5B1B5F00F63F93 /* Build configuration list for PBXProject "Proj0211Ex01_FruitMarket" */;
+			buildConfigurationList = 6D980C902D5C6A5000F63F93 /* Build configuration list for PBXProject "Lec0212Ex02_ObservedObject" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 6D980C3A2D5B1B5F00F63F93;
+			mainGroup = 6D980C8C2D5C6A5000F63F93;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6D980C442D5B1B5F00F63F93 /* Products */;
+			productRefGroup = 6D980C962D5C6A5000F63F93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D980C422D5B1B5F00F63F93 /* Proj0211Ex01_FruitMarket */,
+				6D980C942D5C6A5000F63F93 /* Lec0212Ex02_ObservedObject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D980C412D5B1B5F00F63F93 /* Resources */ = {
+		6D980C932D5C6A5000F63F93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -139,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D980C3F2D5B1B5F00F63F93 /* Sources */ = {
+		6D980C912D5C6A5000F63F93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -149,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6D980C4F2D5B1B6100F63F93 /* Debug */ = {
+		6D980CA12D5C6A5200F63F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		6D980C502D5B1B6100F63F93 /* Release */ = {
+		6D980CA22D5C6A5200F63F93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -268,14 +244,14 @@
 			};
 			name = Release;
 		};
-		6D980C522D5B1B6100F63F93 /* Debug */ = {
+		6D980CA42D5C6A5200F63F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Proj0211Ex01_FruitMarket/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lec0212Ex02_ObservedObject/Preview Content\"";
 				DEVELOPMENT_TEAM = 42TSDC5PJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -289,7 +265,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.estsoft.Proj0211Ex01-FruitMarket";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estsoft.Lec0212Ex02-ObservedObject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,14 +273,14 @@
 			};
 			name = Debug;
 		};
-		6D980C532D5B1B6100F63F93 /* Release */ = {
+		6D980CA52D5C6A5200F63F93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Proj0211Ex01_FruitMarket/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Lec0212Ex02_ObservedObject/Preview Content\"";
 				DEVELOPMENT_TEAM = 42TSDC5PJS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -318,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.estsoft.Proj0211Ex01-FruitMarket";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.estsoft.Lec0212Ex02-ObservedObject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -329,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D980C3E2D5B1B5F00F63F93 /* Build configuration list for PBXProject "Proj0211Ex01_FruitMarket" */ = {
+		6D980C902D5C6A5000F63F93 /* Build configuration list for PBXProject "Lec0212Ex02_ObservedObject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D980C4F2D5B1B6100F63F93 /* Debug */,
-				6D980C502D5B1B6100F63F93 /* Release */,
+				6D980CA12D5C6A5200F63F93 /* Debug */,
+				6D980CA22D5C6A5200F63F93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D980C512D5B1B6100F63F93 /* Build configuration list for PBXNativeTarget "Proj0211Ex01_FruitMarket" */ = {
+		6D980CA32D5C6A5200F63F93 /* Build configuration list for PBXNativeTarget "Lec0212Ex02_ObservedObject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D980C522D5B1B6100F63F93 /* Debug */,
-				6D980C532D5B1B6100F63F93 /* Release */,
+				6D980CA42D5C6A5200F63F93 /* Debug */,
+				6D980CA52D5C6A5200F63F93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D980C3B2D5B1B5F00F63F93 /* Project object */;
+	rootObject = 6D980C8D2D5C6A5000F63F93 /* Project object */;
 }

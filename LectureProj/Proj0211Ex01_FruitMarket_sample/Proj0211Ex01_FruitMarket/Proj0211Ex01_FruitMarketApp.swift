@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-@main
+//@main
 struct Proj0211Ex01_FruitMarketApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            ContentView()
         }
     }
 }
