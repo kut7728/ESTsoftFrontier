@@ -7,17 +7,19 @@
 
 import SwiftUI
 
-class UserSettings: ObservableObject {
-    @Published var username: String = "Guest"
+@Observable
+class UserSettings {
+    var username: String = "Guest"
 }
 
 
 
 struct ParentView1: View {
-    @StateObject var settings = UserSettings()
+    @Bindable var settings = UserSettings()
 
     var body: some View {
-        ChildView().environmentObject(settings)
+        ChildView()
+            .environment(settings)
 //        DeeperChildView()
     }
 }
@@ -32,7 +34,7 @@ struct ChildView: View {
 }
 
 struct DeeperChildView: View {
-    @EnvironmentObject var settings: UserSettings
+    @Environment var settings: UserSettings
     
     var body: some View {
         Text("Hello, deeper child \(settings.username)!")
