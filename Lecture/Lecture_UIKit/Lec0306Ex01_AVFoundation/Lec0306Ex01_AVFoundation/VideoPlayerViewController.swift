@@ -24,6 +24,7 @@ class VideoPlayerViewController: UIViewController {
     
     func setupVideoPlayer() {
         guard let path = Bundle.main.path(forResource: "SampleVideo", ofType: "mp4") else { return }
+//        guard let path = systemName
         let url = URL(filePath: path)
         player = AVPlayer(url: url)
         
